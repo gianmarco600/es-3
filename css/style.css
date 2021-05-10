@@ -1,4 +1,6 @@
-.box{
+/* mobile first */
+
+/* .box{
     border-radius: 50%;
     background-color: blue;
     width: 200px;
@@ -10,6 +12,18 @@
     .box{
         border-radius: 0;
     }
+} */
 
-    
+/* desktop first */
+
+ .box{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width:480px) {
+    .box{
+        border-radius: 50%;
+    }
 }
